@@ -168,7 +168,7 @@ for i in vector_teste:
         print('Test picat.')
     test = aux.copy()
     start = time.time()
-    shell_sort(test, len(test)-1)
+    shell_sort(test, len(test))
     stop = time.time()
     print(f'La shell_sort, pentru lista de {N} numere generate random pana la {maxim}, testul a durat {stop-start} secunde.', end = ' ')
     if (test == sorted(test)):
